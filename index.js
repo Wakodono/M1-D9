@@ -41,8 +41,8 @@ const selectCell = function(event){
 }
 
 // SELECT DAY CELL THAT HAS BEEN CHOSEN AT RANDOM
-const chosenCell = event.target.tagName()  // This give us the HTML element that has been clicked
-clickedDayNode.classList.add("selected")    // We apply "selected" class to it
+const chosenCell = event.target.tagName()  // This give us the JS element that has been selected
+clickedDayNode.classList.add("selected")    //  Assign a class to randomized cell
 
 
 /* Highlight the button on the bingo board (might have to use some basic css on this one). 
