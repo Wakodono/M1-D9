@@ -16,6 +16,15 @@
 // Programmatially create 76 cells, from 1 to 76 with a function (createElement)
 
 
+const createBingoBoard = function(){
+    for (let BingoCell = 1; BingoCell <=76; BingoCell++){
+        let createBingoCells = document.createElement("div")
+        createBingoCells.innerText = BingoCell
+        BingoCell.classList.add("cell")
+        
+    }
+}
+
 
 //Button to randomize number from 1 to 76
 
