@@ -1,3 +1,8 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(198deg, rgba(2,0,36,1) 0%, rgba(136,66,186,1) 41%, rgba(36,24,24,0.9836309523809523) 87%);
+}
 .container {
     display: flex;
     flex-direction: column;
